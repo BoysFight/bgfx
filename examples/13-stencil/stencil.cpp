@@ -432,7 +432,7 @@ static RenderState s_renderStates[RenderState::Count] =
 	},
 	{ // StencilReflection_BlendPlane
 		BGFX_STATE_WRITE_RGB
-		| BGFX_STATE_WRITE_ZØ
+		| BGFX_STATE_WRITE_Z
 		| BGFX_STATE_BLEND_FUNC(BGFX_STATE_BLEND_ONE, BGFX_STATE_BLEND_SRC_COLOR)
 		| BGFX_STATE_DEPTH_TEST_LESS
 		| BGFX_STATE_CULL_CCW
